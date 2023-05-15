@@ -101,11 +101,15 @@
 }
 
 .header__hours {
-  margin-left: 80px;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
 }
 
 .header__address {
-  margin-right: 80px;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
 }
 
 .header__footer_text {
