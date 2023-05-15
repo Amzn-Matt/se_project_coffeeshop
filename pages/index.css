@@ -114,7 +114,7 @@
   margin-right: 80px;
 }
 
-.header__footer_text {
+.header__footer-text {
   margin: 0;
 }
 
@@ -157,11 +157,11 @@
   margin-top: 80px;
 }
 
-.video__iframe {
+.recipies__video-iframe {
   border: none;
 }
 
-.video__caption {
+.recipies__video-caption {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
