@@ -81,7 +81,7 @@
             convenience:
           </h3>
           <div class="recipes__videos">
-            <div class="recipes__video-iframe">
+            <div class="recipes__video-container">
               <iframe
                 class="recipes__iframe"
                 width="480"
@@ -94,7 +94,7 @@
                 <p>~5 min</p>
               </div>
             </div>
-            <div class="recipes__video-iframe">
+            <div class="recipes__video-container">
               <iframe
                 class="recipes__iframe"
                 width="480"
@@ -110,9 +110,73 @@
           </div>
         </section>
 
-        <section id="menu" class="menu"></section>
+        <section id="reserve-table" class="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="surname">Name *</label>
+              <input
+                class="form__input"
+                type="text"
+                id="surname"
+                name="surname"
+                placeholder="Name Surname"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="number">Number of guests *</label>
+              <input
+                class="form__input"
+                type="number"
+                min="1"
+                max="8"
+                id="number"
+                name="number"
+                placeholder="1-8"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="date">Date & Time</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="date"
+                name="date"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="email">Your email *</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Book a Table</button>
+            </fieldset>
 
-        <section id="reserve-table" class="reservation"></section>
+            <label class="form__label form__label_checkbox" for="checkbox">
+              <input
+                class="form__input form__input_checkbox"
+                type="checkbox"
+                id="checkbox"
+                name="checkbox"
+                required
+              />
+              <span class="visible-checkbox"></span>
+              I agree with terms of use
+            </label>
+          </form>
+        </section>
+
+        <section id="menu" class="menu"></section>
 
         <section id="contact" class="about"></section>
       </main>
