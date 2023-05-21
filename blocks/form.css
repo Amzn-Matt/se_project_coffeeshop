@@ -48,6 +48,7 @@
   width: 385px;
   height: 60px;
   margin-bottom: 32px;
+  padding: 0;
 }
 
 .form__button:hover {
@@ -58,6 +59,7 @@
 .form__label_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__input_checkbox {
