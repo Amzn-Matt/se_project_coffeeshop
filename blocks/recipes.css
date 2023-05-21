@@ -52,3 +52,7 @@
   line-height: 30px;
   margin: 24px 0 0;
 }
+
+.recipes__video-item {
+  margin: 0;
+}
