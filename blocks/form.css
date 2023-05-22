@@ -66,6 +66,7 @@
 
 .form__input_type_checkbox {
   border-radius: 2px;
+  border: none;
   width: 20px;
   height: 20px;
   margin: 0 12px 0 0;
