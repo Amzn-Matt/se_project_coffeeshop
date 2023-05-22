@@ -2,9 +2,9 @@
   background-color: #0a2850;
   position: relative;
   color: #ffffff;
-  padding: 100px 80px 150px;
+  padding: 119px 80px 173px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   overflow: hidden;
   z-index: 1;
 }
@@ -16,6 +16,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
   margin: 0;
 }
 
@@ -28,12 +31,13 @@
   line-height: 30px;
 }
 
-.about__paragraph:first-of-type {
-  margin-top: 19px;
+.about__paragraph {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-of-type {
-  margin-bottom: 23px;
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -48,14 +52,6 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  height: 426px;
-  width: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  z-index: -1;
   animation: pulse 1.3s ease-in-out infinite;
 }
 
