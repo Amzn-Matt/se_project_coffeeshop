@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 100px 0 215px 80px;
+  padding: 100px 0 215px 0;
 }
 
 .recipes__title {
@@ -17,6 +17,7 @@
   max-width: 580px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 80px;
 }
 
 .recipes__subtitle {
@@ -27,7 +28,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 438px;
-  margin: 24px 0 80px 0;
+  margin: 24px 0 80px 80px;
 }
 
 .recipes__videos {
@@ -57,8 +58,4 @@
   margin: 24px 0 0;
   padding-left: 0;
   list-style: none;
-}
-
-.recipes__video-item {
-  margin: 0;
 }
